@@ -1,6 +1,5 @@
 package com.satyam.corona;
 
-
 public class Global
 {
     private String NewRecovered;

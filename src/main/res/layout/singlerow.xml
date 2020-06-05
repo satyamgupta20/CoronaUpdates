@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="10dp"
+    android:padding="5dp"
+    app:cardCornerRadius="5dp"
+    android:background="@drawable/background2"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INDIA"
+        android:textColor="#01A8D7 "
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:id="@+id/country_name">
+    </TextView>
+
+    <TextView
+        android:id="@+id/country_total_confirmed_cases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Confirmed Cases : "
+        android:textSize="15sp"
+        android:layout_marginTop="5dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/country_new_death_cases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Death Cases : "
+        android:textSize="15sp"
+        android:layout_marginTop="5dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/country_total_death_cases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Death Cases : "
+        android:textSize="15sp"
+        android:layout_marginTop="5dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/country_total_recovered_cases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Recovered Cases : "
+        android:textSize="15sp"
+        android:layout_marginTop="5dp">
+    </TextView>
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

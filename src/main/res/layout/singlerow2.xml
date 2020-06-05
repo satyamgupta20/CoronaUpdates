@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="10dp"
+    android:background="@drawable/background2"
+    app:cardCornerRadius="5dp"
+    android:layout_marginTop="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="UTTAR PRADESH"
+            android:textColor="#01A8D7 "
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:id="@+id/state_name">
+        </TextView>
+
+        <Button
+            android:id="@+id/updated_time"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/custom_button2"
+            android:text="Updated time" />
+
+    </LinearLayout>
+        <TextView
+            android:id="@+id/state_total_confirmed_cases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Confirmed Cases : "
+            android:textSize="15sp"
+            android:layout_marginTop="5dp">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/state_total_death_cases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Death Cases : "
+            android:textSize="15sp"
+            android:layout_marginTop="5dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/state_total_recovered_cases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Recovered Cases : "
+            android:textSize="15sp"
+            android:layout_marginTop="5dp">
+        </TextView>
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
